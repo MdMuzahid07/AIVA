@@ -1,8 +1,11 @@
+import TopHeroSection from "@/components/home/TopHeroSection";
 
 const page = () => {
   return (
-    <div>page</div>
+    <>
+      <TopHeroSection />
+    </>
   )
 }
 
-export default page
+export default page;
