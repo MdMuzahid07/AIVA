@@ -20,6 +20,7 @@
   --tertiary: #50baf6;
   --quaternary: #634ab0;
   --quinary: #faff00;
+  --senary: #0f193e;
   --font-generalSans: "General Sans", sans-serif;
   --font-polySans: "PolySans", sans-serif;
 }
@@ -31,6 +32,7 @@
   --color-tertiary: var(--tertiary);
   --color-quaternary: var(--quaternary);
   --color-quinary: var(--quinary);
+  --color-senary: var(--senary);
   --font-polySans: var(--font-polySans);
   --font-general-sans: var(--font-generalSans);
 }
