@@ -6,7 +6,7 @@ const Navbar = () => {
     const [showNav, setShowNav] = useState(false);
 
     return (
-        <header className="max-w-[1440px] sticky top-[20px] mx-auto w-full mt-[20px] px-[16px] md:px-[24px] lg:px-[0px] bg-none">
+        <header className="max-w-[1440px] sticky top-[20px] mx-auto w-full mt-[20px] px-[16px] md:px-[24px] xl:px-[0px] bg-none z-30">
             <nav className="max-w-[1240px] mx-auto flex items-center justify-between  pl-[22px] pr-[8px] w-full h-[60px] rounded-[50px] bg-[rgba(255,255,255,0.60)] backdrop-blur-[3px] relative">
                 <Link href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="86" height="14" viewBox="0 0 86 14" fill="none">
