@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "PolySans";
+  src: url("/fonts/PolySans/polysanstrial-bulky.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "General Sans";
+  src: url("/fonts/GeneralSans-Variable.woff2") format("truetype");
+  font-style: normal;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff;
+  --primary: #466fff;
+  --secondary: #858bec;
+  --tertiary: #50baf6;
+  --quaternary: #634ab0;
+  --quinary: #faff00;
+  --font-generalSans: "General Sans", sans-serif;
+  --font-polySans: "PolySans", sans-serif;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+  --color-quaternary: var(--quaternary);
+  --color-quinary: var(--quinary);
+  --font-polySans: var(--font-polySans);
+  --font-general-sans: var(--font-generalSans);
 }
