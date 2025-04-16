@@ -28,11 +28,11 @@ const Navbar = () => {
                             <div className="absolute bottom-0 w-full">
                                 <span className="mt-[2px] flex justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="62" height="2" viewBox="0 0 62 2" fill="none">
-                                        <path d="M1 1H61" stroke="url(#paint0_linear_2018_612)" stroke-linecap="round" />
+                                        <path d="M1 1H61" stroke="url(#paint0_linear_2018_612)" strokeLinecap="round" />
                                         <defs>
                                             <linearGradient id="paint0_linear_2018_612" x1="-13.8847" y1="-51.4991" x2="72.8509" y2="-46.6987" gradientUnits="userSpaceOnUse">
-                                                <stop stop-color="#858BEC" />
-                                                <stop offset="0.938229" stop-color="#7BD7FF" />
+                                                <stop stopColor="#858BEC" />
+                                                <stop offset="0.938229" stopColor="#7BD7FF" />
                                             </linearGradient>
                                         </defs>
                                     </svg>
@@ -63,7 +63,7 @@ const Navbar = () => {
                     <button className="w-[185px] inline-flex items-center gap-[8px] h-[44px] rounded-[100px] bg-quaternary">
                         <span className="w-[36px] h-[36px] rounded-full bg-white p-[10px] m-[4px] flex justify-center items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                                <g clip-path="url(#clip0_2018_633)">
+                                <g clipPath="url(#clip0_2018_633)">
                                     <path d="M13.5228 2.04277H13.175V1.69492C13.175 1.11818 12.7075 0.651367 12.1314 0.651367C11.5554 0.651367 11.0879 1.11818 11.0879 1.69492V2.04277H6.91366V1.69492C6.91366 1.11818 6.44615 0.651367 5.87011 0.651367C5.29406 0.651367 4.82655 1.11818 4.82655 1.69492V2.04277H4.4787C2.36934 2.04277 0.652344 3.75907 0.652344 5.86913V13.5218C0.652344 15.6319 2.36934 17.3482 4.4787 17.3482H13.5228C15.6322 17.3482 17.3492 15.6319 17.3492 13.5218V5.86913C17.3492 3.75907 15.6322 2.04277 13.5228 2.04277ZM13.5228 15.2611H4.4787C3.51933 15.2611 2.73945 14.4805 2.73945 13.5218V6.91268H15.2621V13.5218C15.2621 14.4805 14.4822 15.2611 13.5228 15.2611ZM7.60936 9.34764V10.739C7.60936 11.3151 7.14185 11.7826 6.56581 11.7826H5.1744C4.59836 11.7826 4.13085 11.3151 4.13085 10.739V9.34764C4.13085 8.7716 4.59836 8.30408 5.1744 8.30408H6.56581C7.14185 8.30408 7.60936 8.7716 7.60936 9.34764Z" fill="#634AB0" />
                                 </g>
                                 <defs>
@@ -104,11 +104,11 @@ const Navbar = () => {
                                     <div className="absolute bottom-0 w-full">
                                         <span className="flex justify-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="84" height="2" viewBox="0 0 84 2" fill="none">
-                                                <path d="M1 1H83" stroke="url(#paint0_linear_581_8165)" stroke-linecap="round" />
+                                                <path d="M1 1H83" stroke="url(#paint0_linear_581_8165)" strokeLinecap="round" />
                                                 <defs>
                                                     <linearGradient id="paint0_linear_581_8165" x1="-19.3424" y1="-51.4991" x2="98.883" y2="-42.5567" gradientUnits="userSpaceOnUse">
-                                                        <stop stop-color="#858BEC" />
-                                                        <stop offset="0.938229" stop-color="#7BD7FF" />
+                                                        <stop stopColor="#858BEC" />
+                                                        <stop offset="0.938229" stopColor="#7BD7FF" />
                                                     </linearGradient>
                                                 </defs>
                                             </svg>
@@ -139,7 +139,7 @@ const Navbar = () => {
                                     <button className="w-[185px] mt-[16px] inline-flex items-center gap-[8px] h-[44px] rounded-[100px] bg-quaternary">
                                         <span className="w-[36px] h-[36px] rounded-full bg-white p-[10px] m-[4px] flex justify-center items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                                                <g clip-path="url(#clip0_2018_633)">
+                                                <g clipPath="url(#clip0_2018_633)">
                                                     <path d="M13.5228 2.04277H13.175V1.69492C13.175 1.11818 12.7075 0.651367 12.1314 0.651367C11.5554 0.651367 11.0879 1.11818 11.0879 1.69492V2.04277H6.91366V1.69492C6.91366 1.11818 6.44615 0.651367 5.87011 0.651367C5.29406 0.651367 4.82655 1.11818 4.82655 1.69492V2.04277H4.4787C2.36934 2.04277 0.652344 3.75907 0.652344 5.86913V13.5218C0.652344 15.6319 2.36934 17.3482 4.4787 17.3482H13.5228C15.6322 17.3482 17.3492 15.6319 17.3492 13.5218V5.86913C17.3492 3.75907 15.6322 2.04277 13.5228 2.04277ZM13.5228 15.2611H4.4787C3.51933 15.2611 2.73945 14.4805 2.73945 13.5218V6.91268H15.2621V13.5218C15.2621 14.4805 14.4822 15.2611 13.5228 15.2611ZM7.60936 9.34764V10.739C7.60936 11.3151 7.14185 11.7826 6.56581 11.7826H5.1744C4.59836 11.7826 4.13085 11.3151 4.13085 10.739V9.34764C4.13085 8.7716 4.59836 8.30408 5.1744 8.30408H6.56581C7.14185 8.30408 7.60936 8.7716 7.60936 9.34764Z" fill="#634AB0" />
                                                 </g>
                                                 <defs>
