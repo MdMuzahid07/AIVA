@@ -248,6 +248,58 @@ export default function UnmatchedAdvantages() {
                         </div>
                     </div>
 
+                    <div className="max-w-[1240px] mx-auto w-full mt-[40px] md:mt-[60px]">
+                        <div className=" hidden md:flex justify-between items-center">
+                            {/* slide indicator */}
+                            <div className="flex items-center gap-[4px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                    <circle cx="5" cy="5" r="5" fill="#0F193E" />
+                                </svg>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                    <circle cx="5" cy="5" r="5" fill="#0F193E" fill-opacity="0.2" />
+                                </svg>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                    <circle cx="5" cy="5" r="5" fill="#0F193E" fill-opacity="0.2" />
+                                </svg>
+                            </div>
+
+
+
+
+
+                            {/* // slide navigator */}
+                            <div className="flex items-center gap-[6px]">
+                                <button className="bg-background w-[62px] h-[62px] rounded-full p-[16px] flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                        <g clip-path="url(#clip0_159_6393)">
+                                            <path d="M6.17406 22.9925L1.27531 18.0938C0.479841 17.2602 0.0360222 16.1523 0.0360222 15C0.0360222 13.8478 0.479841 12.7399 1.27531 11.9063L6.17406 7.00754C6.52564 6.6558 7.00255 6.45813 7.49987 6.45801C7.99719 6.45789 8.47419 6.65534 8.82594 7.00692C9.17768 7.35849 9.37535 7.8354 9.37547 8.33272C9.37559 8.83005 9.17814 9.30705 8.82656 9.65879L5.35156 13.135L28.1641 13.1638C28.6613 13.1638 29.1383 13.3613 29.4899 13.713C29.8415 14.0646 30.0391 14.5415 30.0391 15.0388C30.0391 15.5361 29.8415 16.013 29.4899 16.3646C29.1383 16.7162 28.6613 16.9138 28.1641 16.9138L5.37531 16.885L8.82656 20.3413C9.16811 20.6949 9.3571 21.1686 9.35283 21.6602C9.34855 22.1518 9.15136 22.6221 8.80372 22.9697C8.45608 23.3173 7.98581 23.5145 7.49419 23.5188C7.00257 23.5231 6.52769 23.3341 6.17406 22.9925Z" fill="#0F193E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_159_6393">
+                                                <rect width="30" height="30" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+
+                                <button className="bg-background w-[62px] h-[62px] rounded-full p-[16px] flex justify-center items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                        <g clip-path="url(#clip0_159_6396)">
+                                            <path d="M23.9041 22.9925L28.8028 18.0938C29.5983 17.2602 30.0421 16.1523 30.0421 15C30.0421 13.8478 29.5983 12.7399 28.8028 11.9063L23.9041 7.00754C23.5525 6.6558 23.0756 6.45813 22.5783 6.45801C22.0809 6.45789 21.6039 6.65534 21.2522 7.00692C20.9004 7.35849 20.7028 7.8354 20.7027 8.33272C20.7025 8.83005 20.9 9.30705 21.2516 9.65879L24.7266 13.135L1.91406 13.1638C1.41678 13.1638 0.939868 13.3613 0.588237 13.713C0.236607 14.0646 0.0390625 14.5415 0.0390625 15.0388C0.0390625 15.5361 0.236607 16.013 0.588237 16.3646C0.939868 16.7162 1.41678 16.9138 1.91406 16.9138L24.7028 16.885L21.2516 20.3413C20.91 20.6949 20.721 21.1686 20.7253 21.6602C20.7296 22.1518 20.9268 22.6221 21.2744 22.9697C21.622 23.3173 22.0923 23.5145 22.5839 23.5188C23.0756 23.5231 23.5504 23.3341 23.9041 22.9925Z" fill="#0F193E" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_159_6396">
+                                                <rect width="30" height="30" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
             </div>
