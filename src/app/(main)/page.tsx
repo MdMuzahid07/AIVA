@@ -1,3 +1,4 @@
+import Features from "@/components/home/Features";
 import MeetAilana from "@/components/home/MeetAilana";
 import TopHeroSection from "@/components/home/TopHeroSection";
 import UnleasingGenAi from "@/components/home/UnleasingGenAi";
@@ -10,6 +11,7 @@ const page = () => {
       <MeetAilana />
       <UnmatchedAdvantages />
       <UnleasingGenAi />
+      <Features />
     </>
   )
 }

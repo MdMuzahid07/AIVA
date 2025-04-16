@@ -73,7 +73,7 @@ const MeetAilana = () => {
                             </div>
                         </div>
                         <div className="px-[12px] pb-[12px] sm:px-[21px] sm:pb-[21px] mt-[11.91px] sm:mt-[30px]">
-                            <p className="text-[14px] sm:text-[16px] leading-[22px] sm:leading-[16px] font-general-sans">
+                            <p className="text-[14px] sm:text-[16px] leading-[22px] sm:leading-[24px] font-general-sans">
                                 <span className="font-semibold"> Immediate Transfers to Human Resources</span> When necessary, AILANA seamlessly connects customers with a dedicated human resource steam, ensuring an unparalleled customer experience.
                             </p>
                         </div>
@@ -93,7 +93,7 @@ const MeetAilana = () => {
                             </div>
                         </div>
                         <div className="px-[12px] pb-[12px] sm:px-[21px] sm:pb-[21px] mt-[11.91px] sm:mt-[30px]">
-                            <p className="text-[14px] sm:text-[16px] leading-[22px] sm:leading-[16px] font-general-sans">
+                            <p className="text-[14px] sm:text-[16px] leading-[22px] sm:leading-[24px] font-general-sans">
                                 <span className="font-semibold">Unlock Rapid ROI and Effortless Onboarding with AILANA</span>—AILANA works with your existing infrastructure and onboarding only takes a few days. ROI occurs almost immediately.
                             </p>
                         </div>
