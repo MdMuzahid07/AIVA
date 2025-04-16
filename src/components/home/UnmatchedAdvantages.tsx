@@ -249,7 +249,7 @@ export default function UnmatchedAdvantages() {
                     </div>
 
                     <div className="max-w-[1240px] w-full mt-[40px] md:mt-[60px]">
-                        <div className=" hidden md:flex justify-between items-center">
+                        <div className="flex justify-center md:justify-between items-center">
                             {/* slide indicator */}
                             <div className="flex items-center gap-[4px]">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
@@ -267,10 +267,8 @@ export default function UnmatchedAdvantages() {
 
 
 
-
-
                             {/* // slide navigator */}
-                            <div className="flex items-center gap-[6px]">
+                            <div className="hidden md:flex items-center gap-[6px]">
                                 <button className="bg-background w-[62px] h-[62px] rounded-full p-[16px] flex justify-center items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                                         <g clip-path="url(#clip0_159_6393)">
