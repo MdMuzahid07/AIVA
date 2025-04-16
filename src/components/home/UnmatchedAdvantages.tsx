@@ -1,7 +1,29 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 
 
 export default function UnmatchedAdvantages() {
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const goToPrevious = () => {
+        const isFirstSlide = currentIndex === 0;
+        const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+        setCurrentIndex(newIndex);
+    };
+
+    const goToNext = () => {
+        const isLastSlide = currentIndex === slides.length - 1;
+        const newIndex = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(newIndex);
+    };
+
+    const goToSlide = (slideIndex) => {
+        setCurrentIndex(slideIndex);
+    };
+
+
     return (
         <section className="max-w-[1440px] mx-auto relative pb-[60px] md:pb-[80px] lg:pb-[120px]">
             < div className="w-full h-[649px] md:h-[800px] lg:h-[859px] relative z-0" >
