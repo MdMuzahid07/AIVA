@@ -36,7 +36,7 @@ export default function UnmatchedAdvantages() {
 
                     {/* // slider  */}
 
-                    <div className="w-full overflow-x-auto  overflow-hidden">
+                    <div className="w-full overflow-x-auto [&::-webkit-scrollbar]:hidden overflow-hidden">
                         <div className="flex items-center gap-[13px] md:gap-[20px] min-w-full">
                             {/* // card 1  */}
                             <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
@@ -248,7 +248,7 @@ export default function UnmatchedAdvantages() {
                         </div>
                     </div>
 
-                    <div className="max-w-[1240px] mx-auto w-full mt-[40px] md:mt-[60px]">
+                    <div className="max-w-[1240px] w-full mt-[40px] md:mt-[60px]">
                         <div className=" hidden md:flex justify-between items-center">
                             {/* slide indicator */}
                             <div className="flex items-center gap-[4px]">
