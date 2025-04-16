@@ -1,5 +1,6 @@
 import MeetAilana from "@/components/home/MeetAilana";
 import TopHeroSection from "@/components/home/TopHeroSection";
+import UnleasingGenAi from "@/components/home/UnleasingGenAi";
 import UnmatchedAdvantages from "@/components/home/UnmatchedAdvantages";
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
       <TopHeroSection />
       <MeetAilana />
       <UnmatchedAdvantages />
+      <UnleasingGenAi />
     </>
   )
 }

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function UnmatchedAdvantages() {
     return (
-        <section className="max-w-[1440px] mx-auto relative pb-[60px] md:pb-[80px] lg:pb-[120px]  ">
-            <div className="w-full h-[649px] md:h-[800px] lg:h-[859px] relative z-0">
+        <section className="max-w-[1440px] mx-auto relative pb-[60px] md:pb-[80px] lg:pb-[120px]">
+            < div className="w-full h-[649px] md:h-[800px] lg:h-[859px] relative z-0" >
                 <Image
                     src="/images/home/unmatched-advantages/unmatched-advantages-bg.png"
                     width={1440}
@@ -20,7 +20,7 @@ export default function UnmatchedAdvantages() {
                     alt="aiva top hero bg"
                     className="w-full h-full rounded-[20px] flex sm:hidden"
                 />
-            </div>
+            </div >
 
 
 
@@ -301,6 +301,6 @@ export default function UnmatchedAdvantages() {
                 </div>
             </div>
 
-        </section>
+        </section >
     )
 }
