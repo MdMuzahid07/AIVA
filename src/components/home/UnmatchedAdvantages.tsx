@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function UnmatchedAdvantages() {
     return (
         <section className="max-w-[1440px] mx-auto relative pb-[60px] md:pb-[80px] lg:pb-[120px]  ">
-            <div className="w-full h-[843px] md:h-[800px] lg:h-[900px] relative z-0">
+            <div className="w-full h-[649px] md:h-[800px] lg:h-[859px] relative z-0">
                 <Image
                     src="/images/home/unmatched-advantages/unmatched-advantages-bg.png"
                     width={1440}
@@ -29,8 +29,8 @@ export default function UnmatchedAdvantages() {
                 <div className="w-full z-10 pl-[16px] md:pl-[24px] xl:pl-[100px]">
 
                     <h1 className="w-full md:max-w-[925px] text-[28px] md:text-[44px] leading-[36px] md:leading-[52px] tracking-[0.42px] md:tracking-[0.66px] font-bold font-polySans mb-[40px] md:mb-[60px]">
-                        Unmatched Advantages: <br className="hidden md:flex" />
-                        Why Our Solution Stands Out
+                        Unmatched <br className="flex sm:hidden" /> Advantages: <br />
+                        Why Our Solution <br className="flex sm:hidden" /> Stands Out
                     </h1>
 
 
