@@ -37,12 +37,12 @@ const MeetAilana = () => {
 
                 {/* // cards  */}
 
-                <div className="grid grid-cols-1 mt-[40px] md:mt-[60px] md:gird-cols-2 lg:grid-cols-3 gap-[20px]">
+                <div className="mt-[40px] md:mt-[60px]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
 
 
-                    <div className="w-full max-w-[343px] h-[358px] sm:max-w-[400px] sm:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
+                    <div className="w-full md:max-w-[343px] h-auto md:min-h-[358px] lg:max-w-[400px] lg:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
                         <div className="px-[12px] pt-[12px] sm:px-[14px] sm:pt-[14px]">
-                            <div className="w-full max-w-[319px] bg-background rounded-[12px] sm:rounded-[36px] h-[210.094px] sm:h-[245px] sm:max-w-[372px] overflow-hidden">
+                            <div className="w-full md:max-w-[319px] bg-background rounded-[12px] sm:rounded-[36px] h-auto md:min-h-[210.094px] lg:h-[245px] lg:max-w-[372px] overflow-hidden">
                                 <Image
                                     src="/images/home/meet-ailana/card-img-1.png"
                                     width={372}
@@ -60,9 +60,9 @@ const MeetAilana = () => {
                     </div>
 
 
-                    <div className="w-full max-w-[343px] h-[358px] sm:max-w-[400px] sm:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
+                    <div className="w-full md:max-w-[343px] h-auto md:min-h-[358px] lg:max-w-[400px] lg:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
                         <div className="px-[12px] pt-[12px] sm:px-[14px] sm:pt-[14px]">
-                            <div className="w-full max-w-[319px] bg-background rounded-[12px] sm:rounded-[36px] h-[210.094px] sm:h-[245px] sm:max-w-[372px] overflow-hidden">
+                            <div className="w-full md:max-w-[319px] bg-background rounded-[12px] sm:rounded-[36px] h-auto md:min-h-[210.094px] lg:h-[245px] lg:max-w-[372px] overflow-hidden">
                                 <Image
                                     src="/images/home/meet-ailana/card-img-2.png"
                                     width={372}
@@ -80,9 +80,9 @@ const MeetAilana = () => {
                     </div>
 
 
-                    <div className="w-full max-w-[343px] h-[358px] sm:max-w-[400px] sm:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
+                    <div className="w-full md:max-w-[343px] h-auto md:min-h-[358px] lg:max-w-[400px] lg:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
                         <div className="px-[12px] pt-[12px] sm:px-[14px] sm:pt-[14px]">
-                            <div className="w-full max-w-[319px] bg-background rounded-[12px] sm:rounded-[36px] h-[210.094px] sm:h-[245px] sm:max-w-[372px] overflow-hidden">
+                            <div className="w-full md:max-w-[319px] bg-background rounded-[12px] sm:rounded-[36px] h-auto md:min-h-[210.094px] lg:h-[245px] lg:max-w-[372px] overflow-hidden">
                                 <Image
                                     src="/images/home/meet-ailana/card-img-3.png"
                                     width={372}

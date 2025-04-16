@@ -24,7 +24,6 @@ export default function UnmatchedAdvantages() {
 
 
 
-
             <div className="absolute top-[60px] md:top-[100px] w-full">
                 <div className="w-full z-10 pl-[16px] md:pl-[24px] xl:pl-[100px]">
 
