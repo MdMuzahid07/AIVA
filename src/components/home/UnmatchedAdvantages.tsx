@@ -37,11 +37,9 @@ export default function UnmatchedAdvantages() {
                     {/* // slider  */}
 
                     <div className="w-full overflow-x-auto  overflow-hidden">
-                        <div className="flex items-center gap-[13px] md:gap-[20px] w-full">
-
-
+                        <div className="flex items-center gap-[13px] md:gap-[20px] min-w-full">
                             {/* // card 1  */}
-                            <div className="w-[300px] md:w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
+                            <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
 
                                 <div className="flex justify-between items-center mb-[30px] md:mb-[65px]">
                                     <h1 className="text-senary text-[18px] md:text-[26px] font-bold font-polySans leading-[26px] md:leading-[34px] tracking-[0.27px] md:tracking-[0.52px]">
@@ -66,7 +64,7 @@ export default function UnmatchedAdvantages() {
 
 
                             {/* // card 2  */}
-                            <div className="w-[300px] md:w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
+                            <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
 
                                 <div className="flex justify-between items-center mb-[30px] md:mb-[65px]">
                                     <h1 className="text-senary text-[18px] md:text-[26px] font-bold font-polySans leading-[26px] md:leading-[34px] tracking-[0.27px] md:tracking-[0.52px]">
@@ -93,7 +91,7 @@ export default function UnmatchedAdvantages() {
 
 
                             {/* // card 3  */}
-                            <div className="w-[300px] md:w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
+                            <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
 
                                 <div className="flex justify-between items-center mb-[30px] md:mb-[65px]">
                                     <h1 className="text-senary text-[18px] md:text-[26px] font-bold font-polySans leading-[26px] md:leading-[34px] tracking-[0.27px] md:tracking-[0.52px]">
@@ -118,7 +116,7 @@ export default function UnmatchedAdvantages() {
                             </div>
 
                             {/* // card 4  */}
-                            <div className="w-[300px] md:w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
+                            <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
 
                                 <div className="flex justify-between items-center mb-[30px] md:mb-[65px]">
                                     <h1 className="text-senary text-[18px] md:text-[26px] font-bold font-polySans leading-[26px] md:leading-[34px] tracking-[0.27px] md:tracking-[0.52px]">
@@ -143,10 +141,112 @@ export default function UnmatchedAdvantages() {
                             </div>
 
 
+                            {/* // card 5  */}
+                            <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
+
+                                <div className="flex justify-between items-center mb-[30px] md:mb-[65px]">
+                                    <h1 className="text-senary text-[18px] md:text-[26px] font-bold font-polySans leading-[26px] md:leading-[34px] tracking-[0.27px] md:tracking-[0.52px]">
+                                        Tailored for <br />
+                                        Financial Institutions
+                                    </h1>
+                                    <div className="w-[40px] md:w-[70px] h-[40px] md:h-[70px]">
+                                        <Image
+                                            src="/images/home/unmatched-advantages/slider-icons/slider-icon-5.png"
+                                            width={100}
+                                            height={100}
+                                            alt="icon"
+                                            className="w-full h-full rounded-[8.059px] md:rounded-[20px] shadow-[2.418px%20-1.612px%200px%200px%20#C1C5FF] md:shadow-[4px_-4px_0px_0px_#C1C5FF]"
+                                        />
+                                    </div>
+                                </div>
+
+                                <p className="text-[rgba(15,25,62,0.80))] ms:text-[16px] font-general-sans md:leading-[24px]">
+                                    Gain a competitive edge by integrating conversational logs into your analytics ecosystem, providing invaluable customer insights and facilitating data-driven decision-making.
+                                </p>
+
+                            </div>
+
+
+                            {/* // card 6  */}
+                            <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
+
+                                <div className="flex justify-between items-center mb-[30px] md:mb-[65px]">
+                                    <h1 className="text-senary text-[18px] md:text-[26px] font-bold font-polySans leading-[26px] md:leading-[34px] tracking-[0.27px] md:tracking-[0.52px]">
+                                        CRM Integration <br /> Capabilities
+                                    </h1>
+                                    <div className="w-[40px] md:w-[70px] h-[40px] md:h-[70px]">
+                                        <Image
+                                            src="/images/home/unmatched-advantages/slider-icons/slider-icon-6.png"
+                                            width={100}
+                                            height={100}
+                                            alt="icon"
+                                            className="w-full h-full rounded-[8.059px] md:rounded-[20px] shadow-[2.418px%20-1.612px%200px%200px%20#C1C5FF] md:shadow-[4px_-4px_0px_0px_#C1C5FF]"
+                                        />
+                                    </div>
+                                </div>
+
+                                <p className="text-[rgba(15,25,62,0.80))] ms:text-[16px] font-general-sans md:leading-[24px]">
+                                    Seamlessly connect our solution with CRM systems, empowering your team with consolidated data for a comprehensive view of customer interactions. Enhance your customer relationship management strategy and unlock new possibilities for personalized service and targeted engagement.
+                                </p>
+
+                            </div>
+
+
+
+                            {/* // card 7  */}
+                            <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
+
+                                <div className="flex justify-between items-center mb-[30px] md:mb-[65px]">
+                                    <h1 className="text-senary text-[18px] md:text-[26px] font-bold font-polySans leading-[26px] md:leading-[34px] tracking-[0.27px] md:tracking-[0.52px]">
+                                        Enterprise <br />
+                                        Scheduling
+                                    </h1>
+                                    <div className="w-[40px] md:w-[70px] h-[40px] md:h-[70px]">
+                                        <Image
+                                            src="/images/home/unmatched-advantages/slider-icons/slider-icon-7.png"
+                                            width={100}
+                                            height={100}
+                                            alt="icon"
+                                            className="w-full h-full rounded-[8.059px] md:rounded-[20px] shadow-[2.418px%20-1.612px%200px%200px%20#C1C5FF] md:shadow-[4px_-4px_0px_0px_#C1C5FF]"
+                                        />
+                                    </div>
+                                </div>
+
+                                <p className="text-[rgba(15,25,62,0.80))] ms:text-[16px] font-general-sans md:leading-[24px]">
+                                    Our AI Virtual Agent can streamline customer scheduling processes with our integrated enterprise scheduling feature, providing efficient and organized appointment management for your business.
+                                </p>
+
+                            </div>
+
+
+
+                            {/* // card 8  */}
+                            <div className="min-w-[300px] max-w-[300px] md:min-w-[505px] md:max-w-[505px] h-[300px] md:h-[373px] bg-background rounded-[30px] md:rounded-[50px] p-[20px] md:p-[30px]">
+
+                                <div className="flex justify-between items-center mb-[30px] md:mb-[65px]">
+                                    <h1 className="text-senary text-[18px] md:text-[26px] font-bold font-polySans leading-[26px] md:leading-[34px] tracking-[0.27px] md:tracking-[0.52px]">
+                                        SMS<br />
+                                        Messaging
+                                    </h1>
+                                    <div className="w-[40px] md:w-[70px] h-[40px] md:h-[70px]">
+                                        <Image
+                                            src="/images/home/unmatched-advantages/slider-icons/slider-icon-8.png"
+                                            width={100}
+                                            height={100}
+                                            alt="icon"
+                                            className="w-full h-full rounded-[8.059px] md:rounded-[20px] shadow-[2.418px%20-1.612px%200px%200px%20#C1C5FF] md:shadow-[4px_-4px_0px_0px_#C1C5FF]"
+                                        />
+                                    </div>
+                                </div>
+
+                                <p className="text-[rgba(15,25,62,0.80))] ms:text-[16px] font-general-sans md:leading-[24px]">
+                                    Enhance communication with your audience through our SMS messaging capabilities. Keep your customers informed, engaged, and connected, fostering stronger relationships and improving overall satisfaction.
+                                </p>
+
+                            </div>
+
                         </div>
                     </div>
-
-
 
 
                 </div>
