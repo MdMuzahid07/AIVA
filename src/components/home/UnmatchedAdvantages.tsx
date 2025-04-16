@@ -12,7 +12,7 @@ export default function UnmatchedAdvantages() {
             content: "AILANA seamlessly integrates with existing PBX and CRM platforms, ensuring a smooth transition and compatibility for businesses of all sizes."
         },
         {
-            title: "Enhanced <br/> Customer <br/> Interactions",
+            title: "Enhanced <br/> Customer Interactions",
             icon: "/images/home/unmatched-advantages/slider-icons/slider-icon-2.png",
             content: "Elevate your customer service with an intelligent Agent designed to understand nuances and deliver lifelike interactions, setting your business apart in customer experience."
         },
@@ -110,7 +110,7 @@ export default function UnmatchedAdvantages() {
                                             dangerouslySetInnerHTML={{ __html: slide.title }}
                                         />
 
-                                        <div className="w-full max-w-[40px] md:max-w-[70px] h-[40px] md:h-[70px]">
+                                        <div className="w-full mr-[3px] mt-[3px] max-w-[40px] md:max-w-[70px] h-[40px] md:h-[70px]">
                                             <Image
                                                 src={slide.icon}
                                                 width={100}
