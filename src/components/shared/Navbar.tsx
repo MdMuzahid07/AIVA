@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <header className="max-w-[1440px] sticky top-[20px] mx-auto w-full mt-[20px] px-[16px] md:px-[24px] xl:px-[0px] bg-none z-30">
-            <nav className="max-w-[1240px] mx-auto flex items-center justify-between  pl-[22px] pr-[8px] w-full h-[60px] rounded-[50px] bg-[rgba(255,255,255,0.60)] backdrop-blur-[3px] relative">
+            <nav className="max-w-[1240px] mx-auto flex items-center justify-between  pl-[22px] pr-[4px] md:pr-[8px] w-full h-[52px] md:h-[60px] rounded-[50px] bg-[rgba(255,255,255,0.60)] backdrop-blur-[3px] relative">
                 <Link href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="86" height="14" viewBox="0 0 86 14" fill="none">
                         <path d="M81.3363 13.2934L80.2363 10.5912H73.7162L72.6162 13.2934H68.6562L74.2562 0.777832H79.6963L85.2962 13.2934H81.3363ZM79.2363 8.17339L77.6562 4.28005C77.4296 3.69931 77.3163 3.21931 77.3163 2.84005C77.3163 2.62672 77.2029 2.52006 76.9762 2.52006C76.7629 2.52006 76.6562 2.62672 76.6562 2.84005C76.6562 3.06524 76.6229 3.2845 76.5563 3.49783C76.5029 3.71117 76.4162 3.97191 76.2962 4.28005L74.7162 8.17339H79.2363Z" fill="black" />
