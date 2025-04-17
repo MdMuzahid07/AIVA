@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const EncourageAction = () => {
     return (
-        <section className="max-w-[1440px] mx-auto pt-[140px]  md:pt-[174px] pb-[60px] md:pb-[80px] lg:pb-[120px]">
+        <section className="max-w-[1440px] mx-auto pt-[140px]  md:pt-[174px] lg:pt-[208px] pb-[60px] md:pb-[80px] lg:pb-[120px]">
 
             <div className=" bg-[rgba(133,143,236,0.40)]  rounded-[20px] md:rounded-[60px] relative  ">
                 <div className="w-full h-[588px] md:min-h-[632px] -mt-[80px] relative z-0">
