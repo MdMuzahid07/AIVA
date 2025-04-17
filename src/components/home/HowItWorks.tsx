@@ -35,7 +35,7 @@ const HowItWorks = () => {
 
             <div className="max-w-[1240px] mx-auto  pt-[40px] md:pt-[60px]">
 
-                <div className="flex flex-col md:flex-row md:justify-between gap-[30px] md:gap-[63px] border-b border-[rgba(15,25,62,0.20)] pb-[30] md:pb-[40px] mb-[30px] md:mb-[40px]">
+                <div className="flex flex-col lg:flex-row md:justify-between gap-[30px] md:gap-[63px] border-b border-[rgba(15,25,62,0.20)] pb-[30] md:pb-[40px] mb-[30px] md:mb-[40px]">
 
                     <div className="flex gap-[20px] md:gap-[30px]">
                         <div className="w-[48px] md:w-[100px] h-[48px] md:h-[100px]">
@@ -62,7 +62,7 @@ const HowItWorks = () => {
 
                 </div>
 
-                <div className="flex flex-col md:flex-row md:justify-between gap-[30px] md:gap-[63px] border-b border-[rgba(15,25,62,0.20)] pb-[30] md:pb-[40px] mb-[30px] md:mb-[40px]">
+                <div className="flex flex-col lg:flex-row md:justify-between gap-[30px] md:gap-[63px] border-b border-[rgba(15,25,62,0.20)] pb-[30] md:pb-[40px] mb-[30px] md:mb-[40px]">
 
                     <div className="flex gap-[20px] md:gap-[30px] md:mt-[10px]">
                         <div className="shadow-[4px_-4px_0px_0px_#C1C5FF] bg-secondary w-[48px] md:w-[100px] h-[48px] md:h-[100px] rounded-[10px] md:rounded-[20px]">
@@ -89,7 +89,7 @@ const HowItWorks = () => {
 
                 </div>
 
-                <div className="flex flex-col md:flex-row md:justify-between gap-[30px] md:gap-[63px]">
+                <div className="flex flex-col lg:flex-row md:justify-between gap-[30px] md:gap-[63px]">
 
                     <div className="flex gap-[20px] md:gap-[30px] items-center">
                         <div className=" w-[48px] md:w-[100px] h-[48px] md:h-[100px]">

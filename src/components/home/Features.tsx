@@ -24,7 +24,7 @@ const Features = () => {
 
                     {/* // tabs */}
 
-                    <div className="flex flex-col md:flex-row mt-[40px] md:mt-[60px] lg:gap-[156px]">
+                    <div className="flex flex-col lg:flex-row mt-[40px] md:mt-[60px] lg:gap-[156px]">
 
                         <ul className="space-y-[40px] w-full md:max-w-[484px]">
                             <li className="flex gap-[20px]">

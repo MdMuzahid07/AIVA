@@ -40,10 +40,10 @@ const InstantEngagement = () => {
 
 
 
-                <div className="mt-[20px] md:mt-[40px] flex flex-col md:flex-row gap-[20px] md:gap-[65px]">
+                <div className="mt-[20px] md:mt-[40px] flex flex-col lg:flex-row gap-[20px] md:gap-[65px]">
 
-                    <div className="w-full md:max-w-[565px]">
-                        <div className="w-full md:max-w-[565px] h-full md:max-h-[502px]  hidden sm:flex">
+                    <div className="w-full lg:max-w-[565px]">
+                        <div className="w-full lg:max-w-[565px] h-full lg:max-h-[502px]  hidden sm:flex">
                             <Image
                                 src="/images/home/instant-engagement/professional-team.png"
                                 width={565}
@@ -65,7 +65,7 @@ const InstantEngagement = () => {
                     </div>
 
 
-                    <div className="w-full md:max-w-[610px]">
+                    <div className="w-full lg:max-w-[610px]">
                         <h1 className="text-[28px] md:text-[38px] font-polySans font-bold leading-[36px] md:leading-[46px] tracking-[0.42px] md:tracking-[0.57px]">
                             Instant Engagement <br />
                             Across Verticals
