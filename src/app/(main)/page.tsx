@@ -1,4 +1,5 @@
 import Features from "@/components/home/Features";
+import HowItWorks from "@/components/home/HowItWorks";
 import InstantEngagement from "@/components/home/InstantEngagement";
 import MeetAilana from "@/components/home/MeetAilana";
 import TopHeroSection from "@/components/home/TopHeroSection";
@@ -14,6 +15,7 @@ const page = () => {
       <UnleasingGenAi />
       <Features />
       <InstantEngagement />
+      <HowItWorks />
     </>
   )
 }

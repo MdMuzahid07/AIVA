@@ -17,21 +17,21 @@ const InstantEngagement = () => {
 
                 {/* tabs buttons  */}
                 <div className="overflow-x-auto overflow-y-hidden">
-                    <div className="bg-[rgba(70,111,255,0.05)] h-[80px] md:h-[90px] rounded-[20px] p-[6px] md:p-[10px] flex items-center gap-[35px] min-w-[1000px]">
+                    <div className="bg-[rgba(70,111,255,0.05)] h-[80px] md:h-[90px] rounded-[20px] p-[6px] md:p-[10px] flex items-center gap-[35px]">
 
-                        <button className="w-[163px] md:w-[328px] h-[68px] md:h-[70px] p-[12px] md:p-[21px] rounded-[14px] md:rounded-[10px] shadow-[0px 0px 14px 0px rgba(15,25,62,0.08)] bg-white text-[14px] md:text-[16px] md:leading-[24px] font-semibold leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
+                        <button className="w-[163px] md:min-w-[328px] h-[68px] md:h-[70px] p-[12px] md:p-[21px] rounded-[14px] md:rounded-[10px] shadow-[0px 0px 14px 0px rgba(15,25,62,0.08)] bg-white text-[14px] md:text-[16px] md:leading-[24px] font-semibold leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
                             Instant Engagement Across Verticals
                         </button>
 
-                        <button className="w-[163px] md:w-[328px] text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
+                        <button className="w-[163px] md:w-full text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
                             Community Banks & Credit Unions
                         </button>
 
-                        <button className="w-[163px] md:w-[328px] text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
+                        <button className="w-[163px] md:w-full text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
                             Streamlining Insurance Services
                         </button>
 
-                        <button className="w-[163px] md:w-[328px] text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
+                        <button className="w-[163px] md:w-full text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
                             Dynamic Realtor Communications
                         </button>
 
