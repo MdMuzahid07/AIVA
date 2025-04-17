@@ -3,8 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 
-
-const tabData = [
+const tabsData = [
     {
         id: "verticals",
         title: "Instant Engagement Across Verticals",
@@ -28,7 +27,7 @@ const tabData = [
         ],
         image: {
             desktop: "/images/home/instant-engagement/professional-team-2.png",
-            mobile: "/images/home/instant-engagement/professional-team-mobile.png",
+            mobile: "/images/home/instant-engagement/professional-team-2.png",
         },
     },
     {
@@ -41,7 +40,7 @@ const tabData = [
         ],
         image: {
             desktop: "/images/home/instant-engagement/professional-team-3.png",
-            mobile: "/images/home/instant-engagement/professional-team-mobile.png",
+            mobile: "/images/home/instant-engagement/professional-team-3.png",
         },
     },
     {
@@ -54,7 +53,7 @@ const tabData = [
         ],
         image: {
             desktop: "/images/home/instant-engagement/professional-team-4.png",
-            mobile: "/images/home/instant-engagement/professional-team-mobile.png",
+            mobile: "/images/home/instant-engagement/professional-team-4.png",
         },
     },
 ];
@@ -62,7 +61,7 @@ const tabData = [
 const InstantEngagement = () => {
     const [activeTab, setActiveTab] = useState("verticals");
 
-    const currentTab = tabData.find((tab) => tab.id === activeTab) || tabData[0]
+    const currentTab = tabsData.find((tab) => tab.id === activeTab) || tabsData[0]
 
 
     return (
@@ -80,10 +79,10 @@ const InstantEngagement = () => {
             <div className="max-w-[1240px] mx-auto">
 
                 {/* tabs buttons  */}
-                <div className="overflow-x-auto overflow-y-hidden">
-                    <div className="bg-[rgba(70,111,255,0.05)] h-[80px] md:h-[90px] rounded-[20px] p-[6px] md:p-[10px] flex items-center gap-[35px]">
+                <div className="overflow-x-auto overflow-y-hidden  rounded-[20px]">
+                    <div className="bg-[rgba(70,111,255,0.05)] h-[80px] md:h-[90px] rounded-[20px] p-[6px] md:p-[10px] flex items-center gap-[35px]  min-w-[1240px]">
 
-                        {tabData?.map((tab) => (
+                        {tabsData?.map((tab) => (
                             <button
                                 key={tab?.id}
                                 onClick={() => setActiveTab(tab?.id)}
@@ -95,28 +94,8 @@ const InstantEngagement = () => {
                                 {tab?.title}
                             </button>
                         ))}
-
-                        {/* 
-                        <button className="w-[163px] md:min-w-[328px] h-[68px] md:h-[70px] p-[12px] md:p-[21px] rounded-[14px] md:rounded-[10px] shadow-[0px 0px 14px 0px rgba(15,25,62,0.08)] bg-white text-[14px] md:text-[16px] md:leading-[24px] font-semibold leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
-                            Instant Engagement Across Verticals
-                        </button>
-
-                        <button className="w-[163px] md:w-full text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
-                            Community Banks & Credit Unions
-                        </button>
-
-                        <button className="w-[163px] md:w-full text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
-                            Streamlining Insurance Services
-                        </button>
-
-                        <button className="w-[163px] md:w-full text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans  text-start md:text-center flex justify-center items-center">
-                            Dynamic Realtor Communications
-                        </button> */}
-
                     </div>
                 </div>
-
-
 
                 <div className="mt-[20px] md:mt-[40px] flex flex-col lg:flex-row gap-[20px] md:gap-[65px] relative">
 
@@ -145,9 +124,6 @@ const InstantEngagement = () => {
 
                     <div className="w-full lg:max-w-[610px]">
                         <h1 className="text-[28px] md:text-[38px] font-polySans font-bold leading-[36px] md:leading-[46px] tracking-[0.42px] md:tracking-[0.57px]">
-                            {/* Instant Engagement <br />
-                            Across Verticals */}
-
                             {currentTab?.heading?.split("\n")?.map((line, i) => (
                                 <span key={i}>
                                     {line}
@@ -155,12 +131,6 @@ const InstantEngagement = () => {
                                 </span>
                             ))}
                         </h1>
-                        {/* <p className="mt-[20px] md:mt-[40px] text-[14px] md:text-[16px] leading-[22px] md:leading-[24px] font-general-sans text-[rgba(15,25,62,0.80)]">
-                            Customers can quickly get answers to their queries related to mortgages, insurance policies, banking services, vehicle purchases, real estate listings and much more. Our AI Virtual Agent doesn&lsquo;t just provide information but also facilitates smooth transitions to live agents for personalized assistance.
-                        </p>
-                        <p className="mt-[20px] md:mt-[24px] text-[14px] md:text-[16px] leading-[22px] md:leading-[24px] font-general-sans text-[rgba(15,25,62,0.80)]">
-                            Moreover, it can schedule appointments on behalf of loan officers, insurance agents, bankers, car dealers, or realtors. The system ensures a seamless customer experience by sending SMS confirmations and follow-up messages, enhancing convenience throughout the entire process.
-                        </p> */}
 
                         {currentTab?.description?.map((paragraph, index) => (
                             <p
@@ -172,7 +142,7 @@ const InstantEngagement = () => {
                         ))}
 
 
-                        <div className="absolute bottom-0">
+                        <div className="lg:absolute lg:bottom-0">
                             <button className="mt-[20px] md:mt-[95px] w-[185px] md:w-[197px] inline-flex items-center gap-[8px] h-[44px] md:h-[58px] rounded-[100px] bg-quaternary">
                                 <div className="w-[36px] md:w-[48px] h-[36px] md:h-[48px] rounded-full bg-white p-[5px] m-[4px] flex justify-center items-center">
                                     <span className="hidden md:flex">
@@ -206,7 +176,6 @@ const InstantEngagement = () => {
                             </button>
                         </div>
                     </div>
-
 
 
                 </div>
