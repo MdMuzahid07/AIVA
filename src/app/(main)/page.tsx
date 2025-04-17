@@ -1,3 +1,4 @@
+import EncourageAction from "@/components/home/EncourageAction";
 import Features from "@/components/home/Features";
 import HowItWorks from "@/components/home/HowItWorks";
 import InstantEngagement from "@/components/home/InstantEngagement";
@@ -16,6 +17,7 @@ const page = () => {
       <Features />
       <InstantEngagement />
       <HowItWorks />
+      <EncourageAction />
     </>
   )
 }
