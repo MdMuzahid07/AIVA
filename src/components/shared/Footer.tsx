@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="max-w-[1240px] mx-auto px-[16px] md:px-[24px] xl:px-[0px]">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-[40px] md:gap-[0px]">
                     <div className="flex flex-col-reverse md:flex-row justify-between items-center w-full md:w-[720px] gap-[40px] md:gap-[0px]">
-                        <button className="w-[232px] bg-[rgba(15,25,62,0.05)] gap-[10px] md:gap-[16px] md:w-[271px] h-[42px] text-[14px] font-general-sans font-semibold leading-[24px] md:leading-[30px] md:text-[16px] md:h-[54px] rounded-full flex  items-center md:p-[10px]">
+                        <button className="cursor-pointer w-[232px] bg-[rgba(15,25,62,0.05)] gap-[10px] md:gap-[16px] md:w-[271px] h-[42px] text-[14px] font-general-sans font-semibold leading-[24px] md:leading-[30px] md:text-[16px] md:h-[54px] rounded-full flex  items-center md:p-[10px]">
 
                             <div className="w-[24px] md:w-[30px] h-[24px] md:h-[30px] rounded-full border border-senary flex justify-center items-center">
                                 <span className="flex md:hidden">
@@ -42,7 +42,7 @@ const Footer = () => {
                         </button>
 
 
-                        <button className=" w-[185px] md:w-[197px] inline-flex items-center gap-[8px] h-[44px] md:h-[58px] rounded-[100px] bg-quaternary">
+                        <button className="cursor-pointer w-[185px] md:w-[197px] inline-flex items-center gap-[8px] h-[44px] md:h-[58px] rounded-[100px] bg-quaternary">
                             <div className="w-[36px] md:w-[48px] h-[36px] md:h-[48px] rounded-full bg-white p-[5px] m-[4px] flex justify-center items-center">
                                 <span className="hidden md:flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -76,7 +76,7 @@ const Footer = () => {
 
                     </div>
 
-                    <button className="w-[121px] bg-[rgba(15,25,62,0.05)] gap-[10px] md:gap-[16px] md:w-[144px] h-[42px] text-[14px] font-general-sans font-semibold leading-[24px] md:leading-[30px] md:text-[16px] md:h-[54px] rounded-full flex items-center md:p-[10px]">
+                    <button className="cursor-pointer w-[121px] bg-[rgba(15,25,62,0.05)] gap-[10px] md:gap-[16px] md:w-[144px] h-[42px] text-[14px] font-general-sans font-semibold leading-[24px] md:leading-[30px] md:text-[16px] md:h-[54px] rounded-full flex items-center md:p-[10px]">
 
                         <div className="w-[24px] md:w-[30px] h-[24px] md:h-[30px] rounded-full border border-senary flex justify-center items-center">
                             <span className="flex md:hidden">

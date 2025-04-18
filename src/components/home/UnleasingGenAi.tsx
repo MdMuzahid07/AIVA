@@ -17,7 +17,7 @@ const UnleasingGenAi = () => {
                         </p>
                     </div>
 
-                    <button className="mt-[20px] md:mt-[120px] w-[185px] md:w-[197px] inline-flex items-center gap-[8px] h-[44px] md:h-[58px] rounded-[100px] bg-quaternary">
+                    <button className="cursor-pointer mt-[20px] md:mt-[120px] w-[185px] md:w-[197px] inline-flex items-center gap-[8px] h-[44px] md:h-[58px] rounded-[100px] bg-quaternary">
                         <div className="w-[36px] md:w-[48px] h-[36px] md:h-[48px] rounded-full bg-white p-[5px] m-[4px] flex justify-center items-center">
                             <span className="hidden md:flex">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

@@ -86,7 +86,7 @@ const InstantEngagement = () => {
                             <button
                                 key={tab?.id}
                                 onClick={() => setActiveTab(tab?.id)}
-                                className={`w-[163px] md:w-full text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans text-start md:text-center flex justify-center items-center ${activeTab === tab?.id
+                                className={`cursor-pointer w-[163px] md:w-full text-[14px] md:text-[16px] md:leading-[24px] leading-[22px] font-general-sans text-start md:text-center flex justify-center items-center ${activeTab === tab?.id
                                     ? "md:min-w-[328px] h-[68px] md:h-[70px] p-[12px] md:p-[21px] rounded-[14px] md:rounded-[10px] shadow-[0px_0px_14px_0px_rgba(15,25,62,0.08)] bg-white font-semibold"
                                     : ""
                                     }`}
@@ -143,7 +143,7 @@ const InstantEngagement = () => {
 
 
                         <div className="lg:absolute lg:bottom-0">
-                            <button className="mt-[20px] md:mt-[95px] w-[185px] md:w-[197px] inline-flex items-center gap-[8px] h-[44px] md:h-[58px] rounded-[100px] bg-quaternary">
+                            <button className="cursor-pointer mt-[20px] md:mt-[95px] w-[185px] md:w-[197px] inline-flex items-center gap-[8px] h-[44px] md:h-[58px] rounded-[100px] bg-quaternary">
                                 <div className="w-[36px] md:w-[48px] h-[36px] md:h-[48px] rounded-full bg-white p-[5px] m-[4px] flex justify-center items-center">
                                     <span className="hidden md:flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
