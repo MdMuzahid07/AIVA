@@ -87,9 +87,9 @@ const Features = () => {
 
                     {/* // tabs */}
 
-                    <div className="flex flex-col lg:flex-row mt-[40px] md:mt-[60px] lg:gap-[156px]">
+                    <div className="flex flex-col lg:flex-row mt-[40px] md:mt-[60px] md:gap-[20px] xl:gap-[156px]">
 
-                        <ul className="space-y-[40px] w-full md:max-w-[484px]">
+                        <ul className="space-y-[40px] w-full lg:max-w-[484px]">
                             {tabs?.map((tab, index) => (
                                 <li key={tab.id} className={`${index === activeTabIndex ? "flex gap-[20px]" : "pl-[26px]"}  md:mt-[10px]`}>
                                     {index === activeTabIndex && <div className="w-[4px] md:w-[6px] h-[106px] bg-senary md:h-[114px] -mt-[6px]" />}
@@ -117,23 +117,35 @@ const Features = () => {
                                             )}
                                         </button>
                                         {index === activeTabIndex && (
-                                            <p className="mt-[12px] text-[14px] md:mt-[20px] font-general-sans md:text-[16px] leading-[22px] md:leading-[24px]">
-                                                {tab?.description}
-                                            </p>
+                                            <>
+                                                <p className="mt-[12px] text-[14px] md:mt-[20px] font-general-sans md:text-[16px] leading-[22px] md:leading-[24px]">
+                                                    {tab?.description}
+                                                </p>
+
+                                                <div className="mt-[10px] sm:mt-[20px] md:mt-[30px] rounded-[16px] sm:rounded-[50px] overflow-hidden flex lg:hidden">
+                                                    <Image
+                                                        src={tabs[activeTabIndex]?.imagePath || ""}
+                                                        width={600}
+                                                        height={600}
+                                                        alt={`${tabs[activeTabIndex]?.title || "tab image"}`}
+                                                        className="w-full h-full rounded-[41px] sm:rounded-[50px]"
+                                                    />
+                                                </div>
+                                            </>
                                         )}
                                     </div>
                                 </li>
                             ))}
                         </ul>
 
-                        <div className="w-full md:max-w-[600px]">
-                            <div className="w-full md:max-w-[600px] h-full md:max-h-[600px]">
+                        <div className="w-full lg:max-w-[600px]">
+                            <div className="w-full xl:max-w-[600px] h-auto lg:max-h-[600px] hidden lg:flex">
                                 <Image
                                     src={tabs[activeTabIndex]?.imagePath || ""}
                                     width={600}
                                     height={600}
                                     alt={`${tabs[activeTabIndex]?.title || "tab image"}`}
-                                    className="w-full h-full"
+                                    className="w-full h-full rounded-[16px] md:rounded-[50px]"
                                 />
                             </div>
                         </div>
