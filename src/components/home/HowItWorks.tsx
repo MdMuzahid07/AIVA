@@ -25,8 +25,6 @@ const HowItWorks = () => {
             </div>
 
 
-
-
             <h1 className="max-w-[976px] mx-auto mt-[14px] md:mt-[30px] text-[28px] md:text-[44px] font-polySans font-bold leading-[36px] md:leading-[52px] tracking-[0.42px] md:tracking-[0.66px] text-senary text-left md:text-center">
                 Seamless <br className="flex sm:hidden" />
                 Integration for <br /> Enhanced Customer <br className="flex sm:hidden" /> Engagement
@@ -54,7 +52,7 @@ const HowItWorks = () => {
                         </h2>
                     </div>
 
-                    <div className="w-full md:max-w-[610px]">
+                    <div className="w-full lg:max-w-[610px]">
                         <p className="text-[rgba(15,25,62,0.80)] md:mt-[9px] font-general-sans text-[14px] md:text-[16px] leading-[22px] md:leading-[24px]">
                             <strong className="font-semibold">User Mapping:</strong> A new business customer can be onboarded quickly using the customer&apos;s existing infrastructure. The setup of AILANA (AI Virtual Agent) typically takes one day, which involves mapping the customer&apos;s employee contact information, including telephone numbers, extensions, departments, and e-mail addresses
                         </p>
@@ -81,7 +79,7 @@ const HowItWorks = () => {
                         </h2>
                     </div>
 
-                    <div className="w-full md:max-w-[610px]">
+                    <div className="w-full lg:max-w-[610px]">
                         <p className="text-[rgba(15,25,62,0.80)] md:mt-[2px] font-general-sans text-[14px] md:text-[16px] leading-[22px] md:leading-[24px]">
                             <strong className="font-semibold">Calendar Scheduling and CRM Integration:</strong> For businesses seeking advanced features, an implementation process is initiated to seamlessly integrate calendar scheduling and CRM functionalities. This ensures a tailored, comprehensive solution that aligns with the specific needs of the business, maximizing the benefits of the AI Virtual Agent.
                         </p>
@@ -108,7 +106,7 @@ const HowItWorks = () => {
                         </h2>
                     </div>
 
-                    <div className="w-full md:max-w-[610px]">
+                    <div className="w-full lg:max-w-[610px]">
                         <p className="text-[rgba(15,25,62,0.80)] font-general-sans text-[14px] md:text-[16px] leading-[22px] md:leading-[24px]">
                             <strong className="font-semibold">Strategic Display: </strong> The company&apos;s website should prominently feature the AILANA (AI Virtual Agent) phone number. By making this strategic move, customers will be able to easily access and call the number, initiating seamless interactions with AILANA (AI Virtual Agent).
                         </p>

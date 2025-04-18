@@ -1,5 +1,25 @@
 import Image from "next/image";
 
+
+
+const cardDatas = [
+    {
+        img: "/images/home/meet-ailana/card-img-1.png",
+        title: `<p><span>Efficiently tackle customer issues with an intelligent assistant that excels in resolving common problems</span>—minimizing wait times and freeing up your team to handle more complex challenges</p>`,
+    },
+    {
+        img: "/images/home/meet-ailana/card-img-2.png",
+        title: `<p><span> Immediate Transfers to Human Resources</span> When necessary, AILANA seamlessly connects customers with a dedicated human resource steam, ensuring an unparalleled customer experience.</p>`,
+    },
+    {
+        img: "/images/home/meet-ailana/card-img-3.png",
+        title: `<p><span>Unlock Rapid ROI and Effortless Onboarding with AILANA</span>—AILANA works with your existing infrastructure and onboarding only takes a few days. ROI occurs almost immediately.</p>`,
+    },
+]
+
+
+
+
 const MeetAilana = () => {
     return (
         <section className="max-w-[1440px] mx-auto bg-background">
@@ -40,26 +60,35 @@ const MeetAilana = () => {
                 <div className="mt-[40px] md:mt-[60px]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]">
 
 
-                    <div className="w-full md:max-w-[343px] h-auto md:min-h-[358px] lg:max-w-[400px] lg:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
-                        <div className="px-[12px] pt-[12px] sm:px-[14px] sm:pt-[14px]">
-                            <div className="w-full md:max-w-[319px] bg-background rounded-[12px] sm:rounded-[36px] h-auto md:min-h-[210.094px] lg:h-[245px] lg:max-w-[372px] overflow-hidden">
-                                <Image
-                                    src="/images/home/meet-ailana/card-img-1.png"
-                                    width={372}
-                                    height={245}
-                                    alt="meet ailana card image"
-                                    className="w-full h-full rounded-[12px] sm:rounded-[36px]"
-                                />
+                    {
+                        cardDatas?.map((data, index) => (
+                            <div key={index} className="w-full  h-auto md:min-h-[358px] lg:max-w-[400px] lg:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
+                                <div className="px-[12px] pt-[12px] sm:px-[14px] sm:pt-[14px]">
+                                    <div className="w-full bg-background rounded-[12px] sm:rounded-[36px] h-auto md:min-h-[210.094px] lg:h-[245px] lg:max-w-[372px] overflow-hidden">
+                                        <Image
+                                            src={data?.img}
+                                            width={372}
+                                            height={245}
+                                            alt="meet ailana card image"
+                                            className="w-full h-full rounded-[12px] sm:rounded-[36px]"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="px-[12px] pb-[12px] sm:px-[21px] sm:pb-[21px] mt-[11.91px] sm:mt-[30px]">
+                                    <p className="text-[14px] sm:text-[16px] leading-[22px] sm:leading-[24px] font-general-sans"
+                                        dangerouslySetInnerHTML={{
+                                            __html: data?.title.replace(
+                                                /<span>/g,
+                                                '<span class="font-semibold">'
+                                            )
+                                        }}
+                                    >
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="px-[12px] pb-[12px] sm:px-[21px] sm:pb-[21px] mt-[11.91px] sm:mt-[30px]">
-                            <p className="text-[14px] sm:text-[16px] leading-[22px] sm:leading-[24px] font-general-sans">
-                                <span className="font-semibold">Efficiently tackle customer issues with an intelligent assistant that excels in resolving common problems</span>—minimizing wait times and freeing up your team to handle more complex challenges.
-                            </p>
-                        </div>
-                    </div>
 
-
+                        ))}
+                    {/* 
                     <div className="w-full md:max-w-[343px] h-auto md:min-h-[358px] lg:max-w-[400px] lg:h-[459px] rounded-[20px] sm:rounded-[50px] bg-[rgba(70,111,255,0.05)]">
                         <div className="px-[12px] pt-[12px] sm:px-[14px] sm:pt-[14px]">
                             <div className="w-full md:max-w-[319px] bg-background rounded-[12px] sm:rounded-[36px] h-auto md:min-h-[210.094px] lg:h-[245px] lg:max-w-[372px] overflow-hidden">
@@ -97,7 +126,7 @@ const MeetAilana = () => {
                                 <span className="font-semibold">Unlock Rapid ROI and Effortless Onboarding with AILANA</span>—AILANA works with your existing infrastructure and onboarding only takes a few days. ROI occurs almost immediately.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
 
 
 
